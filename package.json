@@ -1,0 +1,23 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "The Note Taker is designed to allow a small business owner (or anyone looking to take notes for that matter) a simple, easy to use application that organizes their notes and thoughts in a straightforward manner, leveraging Heroku and back end Express.js functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkalicki/note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkalicki/note-taker/issues"
+  },
+  "homepage": "https://github.com/lkalicki/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
