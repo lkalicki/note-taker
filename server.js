@@ -68,27 +68,7 @@ app.delete("/api/notes/:id", function (req, res) {
       res.json(notes)
     })
   })
-})
-
-app.put("/api/notes/:id", function(req, res) {
-  const noteId = JSON.parse(req.params.id)
-  console.log(noteId)
-  fs.readFile(__dirname + "db/db.json", "utf8", function(error, notes) {
-    if (error ){
-      return console.log(error)
-    }
-    notes.JSONparse(notes)
-
-    notes = notes.filter(val => val.id !== noteId)
-
-    fs.writeFile(__dirname +"db/db.json", JSON.stringify(notes), function (error, data) {
-      if (error) {
-        return error
-      }
-      res.json(notes)
-    })
-  })
-})
+});
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "public/index.html"));
