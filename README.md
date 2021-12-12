@@ -24,7 +24,7 @@ Links
     GitHub Repository: https://github.com/lkalicki/note-taker
     </li>
     <li>
-    Deployed application: https://github.com/lkalicki/note-taker ; https://git.heroku.com/lkalicki-note-taker.git
+    Deployed application: https://github.com/lkalicki/note-taker ; 
     </li>
     <li>
     Heroku app: https://lkalicki-note-taker.herokuapp.com
